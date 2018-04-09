@@ -14,6 +14,7 @@ public struct MockUpRounding {
   public var roundingRatio: CGFloat {
     return roundingHelper.multiplier
   }
+
   private (set) public var roundingHelper: RoundingHelper<CGFloat>
 
   public init(direction aDirection: MockUpRoundingDirection = .horizontal,
