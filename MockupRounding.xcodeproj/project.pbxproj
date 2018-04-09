@@ -91,6 +91,7 @@
 		1DC8CE80207BA33C001A53A0 /* UIRounding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIRounding.framework; path = Carthage/Build/watchOS/UIRounding.framework; sourceTree = "<group>"; };
 		1DC8CE82207BA354001A53A0 /* UIRounding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIRounding.framework; path = Carthage/Build/tvOS/UIRounding.framework; sourceTree = "<group>"; };
 		931AD04D8A0852E31F652A0E /* NSScreen+ScreenInfoProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSScreen+ScreenInfoProvider.swift"; sourceTree = "<group>"; };
+		931AD13D3C5C0361FD815038 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = file.yml; path = .travis.yml; sourceTree = "<group>"; };
 		931AD1B7158870E88BDE6638 /* MockupRoundingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockupRoundingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		931AD2C9307E5EDA12AC8D27 /* MockUpRoundingDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockUpRoundingDirection.swift; sourceTree = "<group>"; };
 		931AD2D6866CF1F782C28BA0 /* MockupRoundingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockupRoundingTests.swift; sourceTree = "<group>"; };
@@ -308,6 +309,7 @@
 				931AD8C3D1A9FEC7AE6CDB01 /* README.md */,
 				931AD6A4D75410E40B9378D3 /* Cartfile */,
 				1DC8CE2A207B9FB4001A53A0 /* Frameworks */,
+				931AD13D3C5C0361FD815038 /* .travis.yml */,
 			);
 			sourceTree = "<group>";
 		};
