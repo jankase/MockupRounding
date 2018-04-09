@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1DC8CE66207BA278001A53A0"
-               BuildableName = "MockupRounding_tvOS.framework"
+               BuildableName = "MockupRounding.framework"
                BlueprintName = "MockupRounding_tvOS"
                ReferencedContainer = "container:MockupRounding.xcodeproj">
             </BuildableReference>
@@ -26,6 +26,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      codeCoverageEnabled = "YES"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
@@ -43,7 +44,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1DC8CE66207BA278001A53A0"
-            BuildableName = "MockupRounding_tvOS.framework"
+            BuildableName = "MockupRounding.framework"
             BlueprintName = "MockupRounding_tvOS"
             ReferencedContainer = "container:MockupRounding.xcodeproj">
          </BuildableReference>
@@ -65,7 +66,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1DC8CE66207BA278001A53A0"
-            BuildableName = "MockupRounding_tvOS.framework"
+            BuildableName = "MockupRounding.framework"
             BlueprintName = "MockupRounding_tvOS"
             ReferencedContainer = "container:MockupRounding.xcodeproj">
          </BuildableReference>
@@ -83,7 +84,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1DC8CE66207BA278001A53A0"
-            BuildableName = "MockupRounding_tvOS.framework"
+            BuildableName = "MockupRounding.framework"
             BlueprintName = "MockupRounding_tvOS"
             ReferencedContainer = "container:MockupRounding.xcodeproj">
          </BuildableReference>

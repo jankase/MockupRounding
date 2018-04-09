@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1DC8CE59207BA24B001A53A0"
-               BuildableName = "MockupRounding_watchOS.framework"
+               BuildableName = "MockupRounding.framework"
                BlueprintName = "MockupRounding_watchOS"
                ReferencedContainer = "container:MockupRounding.xcodeproj">
             </BuildableReference>
@@ -26,6 +26,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      codeCoverageEnabled = "YES"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -46,7 +47,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1DC8CE59207BA24B001A53A0"
-            BuildableName = "MockupRounding_watchOS.framework"
+            BuildableName = "MockupRounding.framework"
             BlueprintName = "MockupRounding_watchOS"
             ReferencedContainer = "container:MockupRounding.xcodeproj">
          </BuildableReference>
@@ -64,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1DC8CE59207BA24B001A53A0"
-            BuildableName = "MockupRounding_watchOS.framework"
+            BuildableName = "MockupRounding.framework"
             BlueprintName = "MockupRounding_watchOS"
             ReferencedContainer = "container:MockupRounding.xcodeproj">
          </BuildableReference>

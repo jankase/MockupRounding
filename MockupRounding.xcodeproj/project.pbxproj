@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1DC8CE2C207B9FB5001A53A0 /* UIRounding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC8CE2B207B9FB5001A53A0 /* UIRounding.framework */; };
-		1DC8CE47207BA1DA001A53A0 /* MockupRounding_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC8CE3E207BA1D9001A53A0 /* MockupRounding_macOS.framework */; };
+		1DC8CE47207BA1DA001A53A0 /* MockupRounding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC8CE3E207BA1D9001A53A0 /* MockupRounding.framework */; };
 		1DC8CE4C207BA1DA001A53A0 /* MockupRounding_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC8CE4B207BA1DA001A53A0 /* MockupRounding_macOSTests.swift */; };
 		1DC8CE4E207BA1DA001A53A0 /* MockupRounding_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC8CE40207BA1DA001A53A0 /* MockupRounding_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1DC8CE5E207BA24C001A53A0 /* MockupRounding_watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC8CE5C207BA24C001A53A0 /* MockupRounding_watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1DC8CE70207BA278001A53A0 /* MockupRounding_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC8CE67207BA278001A53A0 /* MockupRounding_tvOS.framework */; };
+		1DC8CE70207BA278001A53A0 /* MockupRounding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC8CE67207BA278001A53A0 /* MockupRounding.framework */; };
 		1DC8CE75207BA278001A53A0 /* MockupRounding_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC8CE74207BA278001A53A0 /* MockupRounding_tvOSTests.swift */; };
 		1DC8CE77207BA278001A53A0 /* MockupRounding_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC8CE69207BA278001A53A0 /* MockupRounding_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1DC8CE7F207BA325001A53A0 /* UIRounding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC8CE7E207BA325001A53A0 /* UIRounding.framework */; };
@@ -29,7 +29,7 @@
 		931AD7374F88E6452AC59C52 /* ScreenInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADB6BA5107DFFF84FAFF1 /* ScreenInfoProvider.swift */; };
 		931AD99AAE1E25E90CEFD746 /* MockupRounding_iOS.h in Resources */ = {isa = PBXBuildFile; fileRef = 931AD59BDEE350E39FC56D56 /* MockupRounding_iOS.h */; };
 		931ADA9CC7E3C695DFB5294D /* MockupRounding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADECAA238CCB53B65BFA4 /* MockupRounding.swift */; };
-		931ADAEF557BDE14379F4A3E /* MockupRounding_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931ADA81F5F23BD10E0C02BF /* MockupRounding_iOS.framework */; };
+		931ADAEF557BDE14379F4A3E /* MockupRounding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931ADA81F5F23BD10E0C02BF /* MockupRounding.framework */; };
 		931ADB8403D427137281E291 /* MockupRounding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADECAA238CCB53B65BFA4 /* MockupRounding.swift */; };
 		931ADBD6C60E351DCEFE5658 /* MockUpRoundingDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD2C9307E5EDA12AC8D27 /* MockUpRoundingDirection.swift */; };
 		931ADBDCA38869C930B6A463 /* UIScreen+ScreenInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD7966B7DC7FBA801FCDC /* UIScreen+ScreenInfoProvider.swift */; };
@@ -72,16 +72,16 @@
 		1DC8CE2B207B9FB5001A53A0 /* UIRounding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIRounding.framework; path = Carthage/Build/iOS/UIRounding.framework; sourceTree = "<group>"; };
 		1DC8CE33207BA197001A53A0 /* MockupRounding_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockupRounding_macOS.swift; sourceTree = "<group>"; };
 		1DC8CE35207BA197001A53A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1DC8CE3E207BA1D9001A53A0 /* MockupRounding_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MockupRounding_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC8CE3E207BA1D9001A53A0 /* MockupRounding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MockupRounding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DC8CE40207BA1DA001A53A0 /* MockupRounding_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockupRounding_macOS.h; sourceTree = "<group>"; };
 		1DC8CE41207BA1DA001A53A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DC8CE46207BA1DA001A53A0 /* MockupRounding_macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockupRounding_macOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DC8CE4B207BA1DA001A53A0 /* MockupRounding_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockupRounding_macOSTests.swift; sourceTree = "<group>"; };
 		1DC8CE4D207BA1DA001A53A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1DC8CE5A207BA24B001A53A0 /* MockupRounding_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MockupRounding_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC8CE5A207BA24B001A53A0 /* MockupRounding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MockupRounding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DC8CE5C207BA24C001A53A0 /* MockupRounding_watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockupRounding_watchOS.h; sourceTree = "<group>"; };
 		1DC8CE5D207BA24C001A53A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1DC8CE67207BA278001A53A0 /* MockupRounding_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MockupRounding_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC8CE67207BA278001A53A0 /* MockupRounding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MockupRounding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DC8CE69207BA278001A53A0 /* MockupRounding_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockupRounding_tvOS.h; sourceTree = "<group>"; };
 		1DC8CE6A207BA278001A53A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DC8CE6F207BA278001A53A0 /* MockupRounding_tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockupRounding_tvOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,7 +104,7 @@
 		931AD7966B7DC7FBA801FCDC /* UIScreen+ScreenInfoProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScreen+ScreenInfoProvider.swift"; sourceTree = "<group>"; };
 		931AD8C3D1A9FEC7AE6CDB01 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		931AD8CE51472A9E2FC5CCDE /* ScreenInfoSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenInfoSource.swift; sourceTree = "<group>"; };
-		931ADA81F5F23BD10E0C02BF /* MockupRounding_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MockupRounding_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		931ADA81F5F23BD10E0C02BF /* MockupRounding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MockupRounding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		931ADB6BA5107DFFF84FAFF1 /* ScreenInfoProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenInfoProvider.swift; sourceTree = "<group>"; };
 		931ADDF617C8BB3BD7E5B47A /* FixScreenInfoProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FixScreenInfoProvider.swift; sourceTree = "<group>"; };
 		931ADECAA238CCB53B65BFA4 /* MockupRounding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockupRounding.swift; sourceTree = "<group>"; };
@@ -124,7 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DC8CE47207BA1DA001A53A0 /* MockupRounding_macOS.framework in Frameworks */,
+				1DC8CE47207BA1DA001A53A0 /* MockupRounding.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DC8CE70207BA278001A53A0 /* MockupRounding_tvOS.framework in Frameworks */,
+				1DC8CE70207BA278001A53A0 /* MockupRounding.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,7 +164,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				931ADAEF557BDE14379F4A3E /* MockupRounding_iOS.framework in Frameworks */,
+				931ADAEF557BDE14379F4A3E /* MockupRounding.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,12 +282,12 @@
 		931AD684A40D9C652AEAC750 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				931ADA81F5F23BD10E0C02BF /* MockupRounding_iOS.framework */,
+				931ADA81F5F23BD10E0C02BF /* MockupRounding.framework */,
 				931AD1B7158870E88BDE6638 /* MockupRoundingTests.xctest */,
-				1DC8CE3E207BA1D9001A53A0 /* MockupRounding_macOS.framework */,
+				1DC8CE3E207BA1D9001A53A0 /* MockupRounding.framework */,
 				1DC8CE46207BA1DA001A53A0 /* MockupRounding_macOSTests.xctest */,
-				1DC8CE5A207BA24B001A53A0 /* MockupRounding_watchOS.framework */,
-				1DC8CE67207BA278001A53A0 /* MockupRounding_tvOS.framework */,
+				1DC8CE5A207BA24B001A53A0 /* MockupRounding.framework */,
+				1DC8CE67207BA278001A53A0 /* MockupRounding.framework */,
 				1DC8CE6F207BA278001A53A0 /* MockupRounding_tvOSTests.xctest */,
 			);
 			name = Products;
@@ -366,7 +366,7 @@
 			);
 			name = MockupRounding_macOS;
 			productName = MockupRounding_macOS;
-			productReference = 1DC8CE3E207BA1D9001A53A0 /* MockupRounding_macOS.framework */;
+			productReference = 1DC8CE3E207BA1D9001A53A0 /* MockupRounding.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		1DC8CE45207BA1DA001A53A0 /* MockupRounding_macOSTests */ = {
@@ -403,7 +403,7 @@
 			);
 			name = MockupRounding_watchOS;
 			productName = MockupRounding_watchOS;
-			productReference = 1DC8CE5A207BA24B001A53A0 /* MockupRounding_watchOS.framework */;
+			productReference = 1DC8CE5A207BA24B001A53A0 /* MockupRounding.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		1DC8CE66207BA278001A53A0 /* MockupRounding_tvOS */ = {
@@ -422,7 +422,7 @@
 			);
 			name = MockupRounding_tvOS;
 			productName = MockupRounding_tvOS;
-			productReference = 1DC8CE67207BA278001A53A0 /* MockupRounding_tvOS.framework */;
+			productReference = 1DC8CE67207BA278001A53A0 /* MockupRounding.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		1DC8CE6E207BA278001A53A0 /* MockupRounding_tvOSTests */ = {
@@ -459,7 +459,7 @@
 			);
 			name = MockupRounding_iOS;
 			productName = MockupRounding;
-			productReference = 931ADA81F5F23BD10E0C02BF /* MockupRounding_iOS.framework */;
+			productReference = 931ADA81F5F23BD10E0C02BF /* MockupRounding.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		931ADA6D3843D5B41DE2B09A /* MockupRoundingTests */ = {
@@ -771,7 +771,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.MockupRounding-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = MockupRounding;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -799,7 +799,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.MockupRounding-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = MockupRounding;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -859,7 +859,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.MockupRounding-watchOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = MockupRounding;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -887,7 +887,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.MockupRounding-watchOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = MockupRounding;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -914,7 +914,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.MockupRounding-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = MockupRounding;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -941,7 +941,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.MockupRounding-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = MockupRounding;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -1067,7 +1067,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eu.jkdev.MockupRounding;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = MockupRounding;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1090,7 +1090,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eu.jkdev.MockupRounding;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = MockupRounding;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

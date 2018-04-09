@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1DC8CE3D207BA1D9001A53A0"
-               BuildableName = "MockupRounding_macOS.framework"
+               BuildableName = "MockupRounding.framework"
                BlueprintName = "MockupRounding_macOS"
                ReferencedContainer = "container:MockupRounding.xcodeproj">
             </BuildableReference>
@@ -40,6 +40,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      codeCoverageEnabled = "YES"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
@@ -47,7 +48,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1DC8CE3D207BA1D9001A53A0"
-               BuildableName = "MockupRounding_macOS.framework"
+               BuildableName = "MockupRounding.framework"
                BlueprintName = "MockupRounding_macOS"
                ReferencedContainer = "container:MockupRounding.xcodeproj">
             </BuildableReference>
@@ -57,7 +58,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1DC8CE3D207BA1D9001A53A0"
-            BuildableName = "MockupRounding_macOS.framework"
+            BuildableName = "MockupRounding.framework"
             BlueprintName = "MockupRounding_macOS"
             ReferencedContainer = "container:MockupRounding.xcodeproj">
          </BuildableReference>
@@ -79,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1DC8CE3D207BA1D9001A53A0"
-            BuildableName = "MockupRounding_macOS.framework"
+            BuildableName = "MockupRounding.framework"
             BlueprintName = "MockupRounding_macOS"
             ReferencedContainer = "container:MockupRounding.xcodeproj">
          </BuildableReference>
@@ -97,7 +98,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1DC8CE3D207BA1D9001A53A0"
-            BuildableName = "MockupRounding_macOS.framework"
+            BuildableName = "MockupRounding.framework"
             BlueprintName = "MockupRounding_macOS"
             ReferencedContainer = "container:MockupRounding.xcodeproj">
          </BuildableReference>
