@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		931AD99AAE1E25E90CEFD746 /* MockupRounding in Resources */ = {isa = PBXBuildFile; fileRef = 931AD59BDEE350E39FC56D56 /* MockupRounding */; };
+		931AD99AAE1E25E90CEFD746 /* MockupRounding.h in Resources */ = {isa = PBXBuildFile; fileRef = 931AD59BDEE350E39FC56D56 /* MockupRounding.h */; };
 		931ADAEF557BDE14379F4A3E /* MockupRounding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931ADA81F5F23BD10E0C02BF /* MockupRounding.framework */; };
 		931ADC9D25EEB6B6D5E16F72 /* MockupRoundingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD2D6866CF1F782C28BA0 /* MockupRoundingTests.swift */; };
 /* End PBXBuildFile section */
@@ -25,7 +25,7 @@
 /* Begin PBXFileReference section */
 		931AD1B7158870E88BDE6638 /* MockupRoundingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockupRoundingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		931AD2D6866CF1F782C28BA0 /* MockupRoundingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockupRoundingTests.swift; sourceTree = "<group>"; };
-		931AD59BDEE350E39FC56D56 /* MockupRounding */ = {isa = PBXFileReference; lastKnownFileType = text; path = MockupRounding; sourceTree = "<group>"; };
+		931AD59BDEE350E39FC56D56 /* MockupRounding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockupRounding.h; sourceTree = "<group>"; };
 		931AD6FF0B0A49402BFBA5A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		931AD7166C311CD5ACC84107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		931ADA81F5F23BD10E0C02BF /* MockupRounding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MockupRounding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,7 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				931AD7166C311CD5ACC84107 /* Info.plist */,
-				931AD59BDEE350E39FC56D56 /* MockupRounding */,
+				931AD59BDEE350E39FC56D56 /* MockupRounding.h */,
 			);
 			path = MockupRounding;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				931AD99AAE1E25E90CEFD746 /* MockupRounding in Resources */,
+				931AD99AAE1E25E90CEFD746 /* MockupRounding.h in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
