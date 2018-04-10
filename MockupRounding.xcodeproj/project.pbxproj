@@ -18,15 +18,26 @@
 		1DC8CE7F207BA325001A53A0 /* UIRounding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC8CE7E207BA325001A53A0 /* UIRounding.framework */; };
 		1DC8CE81207BA33C001A53A0 /* UIRounding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC8CE80207BA33C001A53A0 /* UIRounding.framework */; };
 		1DC8CE83207BA354001A53A0 /* UIRounding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC8CE82207BA354001A53A0 /* UIRounding.framework */; };
+		1DE64CD1207CA5B600C66E8F /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE64CCF207CA5B600C66E8F /* Nimble.framework */; };
+		1DE64CD2207CA5B600C66E8F /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE64CD0207CA5B600C66E8F /* Quick.framework */; };
+		1DE64CD5207CA75000C66E8F /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE64CD3207CA75000C66E8F /* Quick.framework */; };
+		1DE64CD6207CA75000C66E8F /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE64CD4207CA75000C66E8F /* Nimble.framework */; };
+		1DE64CD9207CA77000C66E8F /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE64CD7207CA77000C66E8F /* Nimble.framework */; };
+		1DE64CDA207CA77000C66E8F /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE64CD8207CA77000C66E8F /* Quick.framework */; };
 		931AD0796732FFEE078A57C3 /* NSScreen+ScreenInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD04D8A0852E31F652A0E /* NSScreen+ScreenInfoProvider.swift */; };
+		931AD0D84FF11BFB25A73079 /* MockupRoundingSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD999D957C529706FA435 /* MockupRoundingSpec.swift */; };
 		931AD151BD2232AACD4A4DD1 /* ScreenInfoSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD8CE51472A9E2FC5CCDE /* ScreenInfoSource.swift */; };
+		931AD1573A3800DAAAD7CDD4 /* FixScreenInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADDF617C8BB3BD7E5B47A /* FixScreenInfoProvider.swift */; };
 		931AD3133C2ED0B65E4FE44D /* ScreenInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADB6BA5107DFFF84FAFF1 /* ScreenInfoProvider.swift */; };
 		931AD3374A93C7E97F0C80F3 /* MockUpRoundingDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD2C9307E5EDA12AC8D27 /* MockUpRoundingDirection.swift */; };
+		931AD3E38791B5152EFB1073 /* MockupRoundingSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD999D957C529706FA435 /* MockupRoundingSpec.swift */; };
 		931AD4C8743C7CC36E2B184C /* ScreenInfoSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD3AC44E722EA053A74BC /* ScreenInfoSource.swift */; };
 		931AD57FEC623BF43ECC9FA3 /* WKDevice+ScreenInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD51F239C455B6D8E34BE /* WKDevice+ScreenInfoProvider.swift */; };
 		931AD5A783E175A9B27F7BB2 /* ScreenInfoSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD3AC44E722EA053A74BC /* ScreenInfoSource.swift */; };
 		931AD6E5AD373584CF41C00D /* MockupRounding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADECAA238CCB53B65BFA4 /* MockupRounding.swift */; };
+		931AD72D085921931E4D6CB1 /* FixScreenInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADDF617C8BB3BD7E5B47A /* FixScreenInfoProvider.swift */; };
 		931AD7374F88E6452AC59C52 /* ScreenInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADB6BA5107DFFF84FAFF1 /* ScreenInfoProvider.swift */; };
+		931AD92293EC89E4E7E0D88F /* RoundingSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD6A9FD152306295F2CD8 /* RoundingSpec.swift */; };
 		931AD99AAE1E25E90CEFD746 /* MockupRounding_iOS.h in Resources */ = {isa = PBXBuildFile; fileRef = 931AD59BDEE350E39FC56D56 /* MockupRounding_iOS.h */; };
 		931ADA9CC7E3C695DFB5294D /* MockupRounding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADECAA238CCB53B65BFA4 /* MockupRounding.swift */; };
 		931ADAEF557BDE14379F4A3E /* MockupRounding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931ADA81F5F23BD10E0C02BF /* MockupRounding.framework */; };
@@ -40,7 +51,11 @@
 		931ADD9F981FE86D9BF7A80D /* ScreenInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADB6BA5107DFFF84FAFF1 /* ScreenInfoProvider.swift */; };
 		931ADDC971415A2CC3F0298C /* ScreenInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADB6BA5107DFFF84FAFF1 /* ScreenInfoProvider.swift */; };
 		931ADDD253BC8CD120EB15F0 /* UIScreen+ScreenInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD7966B7DC7FBA801FCDC /* UIScreen+ScreenInfoProvider.swift */; };
+		931ADE07B21586B914C58F5D /* RoundingSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD6A9FD152306295F2CD8 /* RoundingSpec.swift */; };
 		931ADF041D03C4C16695D358 /* ScreenInfoSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADEF8A447E39902FF4BE4 /* ScreenInfoSource.swift */; };
+		931ADF4A9BBB65F4289125D5 /* MockupRoundingSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD999D957C529706FA435 /* MockupRoundingSpec.swift */; };
+		931ADF53139119C064723A0F /* FixScreenInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADDF617C8BB3BD7E5B47A /* FixScreenInfoProvider.swift */; };
+		931ADF5AFB6FC79E53B1D448 /* RoundingSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD6A9FD152306295F2CD8 /* RoundingSpec.swift */; };
 		931ADFDCE1CDFC5C172CB3F1 /* MockUpRoundingDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD2C9307E5EDA12AC8D27 /* MockUpRoundingDirection.swift */; };
 /* End PBXBuildFile section */
 
@@ -89,6 +104,12 @@
 		1DC8CE7E207BA325001A53A0 /* UIRounding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIRounding.framework; path = Carthage/Build/Mac/UIRounding.framework; sourceTree = "<group>"; };
 		1DC8CE80207BA33C001A53A0 /* UIRounding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIRounding.framework; path = Carthage/Build/watchOS/UIRounding.framework; sourceTree = "<group>"; };
 		1DC8CE82207BA354001A53A0 /* UIRounding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIRounding.framework; path = Carthage/Build/tvOS/UIRounding.framework; sourceTree = "<group>"; };
+		1DE64CCF207CA5B600C66E8F /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		1DE64CD0207CA5B600C66E8F /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		1DE64CD3207CA75000C66E8F /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
+		1DE64CD4207CA75000C66E8F /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
+		1DE64CD7207CA77000C66E8F /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/tvOS/Nimble.framework; sourceTree = "<group>"; };
+		1DE64CD8207CA77000C66E8F /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/tvOS/Quick.framework; sourceTree = "<group>"; };
 		931AD04D8A0852E31F652A0E /* NSScreen+ScreenInfoProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSScreen+ScreenInfoProvider.swift"; sourceTree = "<group>"; };
 		931AD13D3C5C0361FD815038 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = file.yml; path = .travis.yml; sourceTree = "<group>"; };
 		931AD1B7158870E88BDE6638 /* MockupRoundingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockupRoundingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,14 +119,17 @@
 		931AD51F239C455B6D8E34BE /* WKDevice+ScreenInfoProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WKDevice+ScreenInfoProvider.swift"; sourceTree = "<group>"; };
 		931AD59BDEE350E39FC56D56 /* MockupRounding_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockupRounding_iOS.h; sourceTree = "<group>"; };
 		931AD6A4D75410E40B9378D3 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		931AD6A9FD152306295F2CD8 /* RoundingSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundingSpec.swift; sourceTree = "<group>"; };
 		931AD6FF0B0A49402BFBA5A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		931AD7166C311CD5ACC84107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		931AD7966B7DC7FBA801FCDC /* UIScreen+ScreenInfoProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScreen+ScreenInfoProvider.swift"; sourceTree = "<group>"; };
 		931AD8C3D1A9FEC7AE6CDB01 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		931AD8CE51472A9E2FC5CCDE /* ScreenInfoSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenInfoSource.swift; sourceTree = "<group>"; };
+		931AD999D957C529706FA435 /* MockupRoundingSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockupRoundingSpec.swift; sourceTree = "<group>"; };
 		931ADA81F5F23BD10E0C02BF /* MockupRounding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MockupRounding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		931ADB6BA5107DFFF84FAFF1 /* ScreenInfoProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenInfoProvider.swift; sourceTree = "<group>"; };
 		931ADDF617C8BB3BD7E5B47A /* FixScreenInfoProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FixScreenInfoProvider.swift; sourceTree = "<group>"; };
+		931ADE608A1AC3A2F0B6FF3D /* Cartfile.private */ = {isa = PBXFileReference; lastKnownFileType = file.private; path = Cartfile.private; sourceTree = "<group>"; };
 		931ADECAA238CCB53B65BFA4 /* MockupRounding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockupRounding.swift; sourceTree = "<group>"; };
 		931ADEF8A447E39902FF4BE4 /* ScreenInfoSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenInfoSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,6 +147,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DE64CD5207CA75000C66E8F /* Quick.framework in Frameworks */,
+				1DE64CD6207CA75000C66E8F /* Nimble.framework in Frameworks */,
 				1DC8CE47207BA1DA001A53A0 /* MockupRounding.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,6 +173,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DE64CD9207CA77000C66E8F /* Nimble.framework in Frameworks */,
+				1DE64CDA207CA77000C66E8F /* Quick.framework in Frameworks */,
 				1DC8CE70207BA278001A53A0 /* MockupRounding.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -163,6 +191,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DE64CD1207CA5B600C66E8F /* Nimble.framework in Frameworks */,
+				1DE64CD2207CA5B600C66E8F /* Quick.framework in Frameworks */,
 				931ADAEF557BDE14379F4A3E /* MockupRounding.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -173,6 +203,12 @@
 		1DC8CE2A207B9FB4001A53A0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1DE64CCF207CA5B600C66E8F /* Nimble.framework */,
+				1DE64CD4207CA75000C66E8F /* Nimble.framework */,
+				1DE64CD0207CA5B600C66E8F /* Quick.framework */,
+				1DE64CD3207CA75000C66E8F /* Quick.framework */,
+				1DE64CD7207CA77000C66E8F /* Nimble.framework */,
+				1DE64CD8207CA77000C66E8F /* Quick.framework */,
 				1DC8CE82207BA354001A53A0 /* UIRounding.framework */,
 				1DC8CE80207BA33C001A53A0 /* UIRounding.framework */,
 				1DC8CE7E207BA325001A53A0 /* UIRounding.framework */,
@@ -288,6 +324,7 @@
 			isa = PBXGroup;
 			children = (
 				1DC8CE84207BA4AD001A53A0 /* Common */,
+				931ADEDFA9F340829D4B4073 /* CommonTests */,
 				1DC8CE32207BA197001A53A0 /* MockupRounding_macOS */,
 				1DC8CE4A207BA1DA001A53A0 /* MockupRounding_macOSTests */,
 				1DC8CE5B207BA24B001A53A0 /* MockupRounding_watchOS */,
@@ -300,7 +337,17 @@
 				931AD6A4D75410E40B9378D3 /* Cartfile */,
 				1DC8CE2A207B9FB4001A53A0 /* Frameworks */,
 				931AD13D3C5C0361FD815038 /* .travis.yml */,
+				931ADE608A1AC3A2F0B6FF3D /* Cartfile.private */,
 			);
+			sourceTree = "<group>";
+		};
+		931ADEDFA9F340829D4B4073 /* CommonTests */ = {
+			isa = PBXGroup;
+			children = (
+				931AD999D957C529706FA435 /* MockupRoundingSpec.swift */,
+				931AD6A9FD152306295F2CD8 /* RoundingSpec.swift */,
+			);
+			path = CommonTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,6 +410,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DC8CE52207BA1DA001A53A0 /* Build configuration list for PBXNativeTarget "MockupRounding_macOSTests" */;
 			buildPhases = (
+				1DE64CCD207CA43600C66E8F /* ShellScript */,
 				1DC8CE42207BA1DA001A53A0 /* Sources */,
 				1DC8CE43207BA1DA001A53A0 /* Frameworks */,
 				1DC8CE44207BA1DA001A53A0 /* Resources */,
@@ -419,6 +467,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DC8CE7B207BA278001A53A0 /* Build configuration list for PBXNativeTarget "MockupRounding_tvOSTests" */;
 			buildPhases = (
+				1DE64CCE207CA4E900C66E8F /* ShellScript */,
 				1DC8CE6B207BA278001A53A0 /* Sources */,
 				1DC8CE6C207BA278001A53A0 /* Frameworks */,
 				1DC8CE6D207BA278001A53A0 /* Resources */,
@@ -456,6 +505,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 931AD9F6F395FC528F9BAD47 /* Build configuration list for PBXNativeTarget "MockupRoundingTests" */;
 			buildPhases = (
+				1DE64CCC207CA35700C66E8F /* ShellScript */,
 				931AD5F462CACC914BA176E1 /* Sources */,
 				931AD6725BD640966CCE784E /* Frameworks */,
 				931AD165DC2147F131693466 /* Resources */,
@@ -504,6 +554,9 @@
 						CreatedOnToolsVersion = 9.3;
 						DevelopmentTeam = 8WS8N285FL;
 						ProvisioningStyle = Automatic;
+					};
+					931ADA6D3843D5B41DE2B09A = {
+						DevelopmentTeam = 8WS8N285FL;
 					};
 				};
 			};
@@ -644,6 +697,63 @@
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
+		1DE64CCC207CA35700C66E8F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/UIRounding.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/UIRounding.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Quick.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Nimble.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		1DE64CCD207CA43600C66E8F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/Mac/UIRounding.framework",
+				"$(SRCROOT)/Carthage/Build/Mac/Quick.framework",
+				"$(SRCROOT)/Carthage/Build/Mac/Nimble.framework",
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/UIRounding.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Quick.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Nimble.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		1DE64CCE207CA4E900C66E8F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/tvOS/UIRounding.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/Quick.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/Nimble.framework",
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/UIRounding.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Quick.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Nimble.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -665,6 +775,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DC8CE4C207BA1DA001A53A0 /* MockupRounding_macOSTests.swift in Sources */,
+				931AD0D84FF11BFB25A73079 /* MockupRoundingSpec.swift in Sources */,
+				931AD92293EC89E4E7E0D88F /* RoundingSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -677,6 +789,7 @@
 				931ADFDCE1CDFC5C172CB3F1 /* MockUpRoundingDirection.swift in Sources */,
 				931AD57FEC623BF43ECC9FA3 /* WKDevice+ScreenInfoProvider.swift in Sources */,
 				931AD151BD2232AACD4A4DD1 /* ScreenInfoSource.swift in Sources */,
+				931AD1573A3800DAAAD7CDD4 /* FixScreenInfoProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -689,6 +802,7 @@
 				931ADDD253BC8CD120EB15F0 /* UIScreen+ScreenInfoProvider.swift in Sources */,
 				931AD5A783E175A9B27F7BB2 /* ScreenInfoSource.swift in Sources */,
 				931ADBD6C60E351DCEFE5658 /* MockUpRoundingDirection.swift in Sources */,
+				931ADF53139119C064723A0F /* FixScreenInfoProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -697,6 +811,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DC8CE75207BA278001A53A0 /* MockupRounding_tvOSTests.swift in Sources */,
+				931ADF4A9BBB65F4289125D5 /* MockupRoundingSpec.swift in Sources */,
+				931ADE07B21586B914C58F5D /* RoundingSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -705,6 +821,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				931ADC9D25EEB6B6D5E16F72 /* MockupRoundingTests.swift in Sources */,
+				931AD3E38791B5152EFB1073 /* MockupRoundingSpec.swift in Sources */,
+				931ADF5AFB6FC79E53B1D448 /* RoundingSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -717,6 +835,7 @@
 				931ADBDCA38869C930B6A463 /* UIScreen+ScreenInfoProvider.swift in Sources */,
 				931AD4C8743C7CC36E2B184C /* ScreenInfoSource.swift in Sources */,
 				931ADC5210E8C72921FDF3B6 /* MockUpRoundingDirection.swift in Sources */,
+				931AD72D085921931E4D6CB1 /* FixScreenInfoProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -804,6 +923,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 8WS8N285FL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = MockupRounding_macOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
@@ -821,6 +944,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 8WS8N285FL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = MockupRounding_macOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
@@ -944,8 +1071,13 @@
 		1DC8CE7C207BA278001A53A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8WS8N285FL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				INFOPLIST_FILE = MockupRounding_tvOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.MockupRounding-tvOSTests";
@@ -960,8 +1092,13 @@
 		1DC8CE7D207BA278001A53A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8WS8N285FL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				INFOPLIST_FILE = MockupRounding_tvOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.MockupRounding-tvOSTests";
@@ -1033,6 +1170,12 @@
 		931AD64286BB47FCD2C36AE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEVELOPMENT_TEAM = 8WS8N285FL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MockupRoundingTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eu.jkdev.MockupRoundingTests;
@@ -1091,6 +1234,12 @@
 		931ADA42C797B78A9AEA2739 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEVELOPMENT_TEAM = 8WS8N285FL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MockupRoundingTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eu.jkdev.MockupRoundingTests;

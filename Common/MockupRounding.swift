@@ -26,11 +26,13 @@ public struct MockUpRounding {
       return
     }
     switch aDirection {
-    case .horizontal:
-      roundingHelper.multiplier = theValue / aScreenInfo.size.width
-    case .vertical:
-      roundingHelper.multiplier = theValue / aScreenInfo.size.height
+    case .horizontal: roundingHelper.multiplier = aScreenInfo.size.width / theValue
+    case .vertical: roundingHelper.multiplier = aScreenInfo.size.height / theValue
     }
+  }
+
+  public func convert(value aValue: CGFloat) -> CGFloat {
+    return aValue * roundingRatio
   }
 
   public func round(value aValue: CGFloat) -> CGFloat {
