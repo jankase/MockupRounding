@@ -47,9 +47,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1DC8CE3D207BA1D9001A53A0"
-               BuildableName = "MockupRounding.framework"
-               BlueprintName = "MockupRounding_macOS"
+               BlueprintIdentifier = "1DC8CE45207BA1DA001A53A0"
+               BuildableName = "MockupRounding_macOSTests.xctest"
+               BlueprintName = "MockupRounding_macOSTests"
                ReferencedContainer = "container:MockupRounding.xcodeproj">
             </BuildableReference>
          </TestableReference>

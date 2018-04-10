@@ -74,7 +74,6 @@
 		1DC8CE35207BA197001A53A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DC8CE3E207BA1D9001A53A0 /* MockupRounding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MockupRounding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DC8CE40207BA1DA001A53A0 /* MockupRounding_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockupRounding_macOS.h; sourceTree = "<group>"; };
-		1DC8CE41207BA1DA001A53A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DC8CE46207BA1DA001A53A0 /* MockupRounding_macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockupRounding_macOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DC8CE4B207BA1DA001A53A0 /* MockupRounding_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockupRounding_macOSTests.swift; sourceTree = "<group>"; };
 		1DC8CE4D207BA1DA001A53A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -185,19 +184,11 @@
 		1DC8CE32207BA197001A53A0 /* MockupRounding_macOS */ = {
 			isa = PBXGroup;
 			children = (
+				1DC8CE40207BA1DA001A53A0 /* MockupRounding_macOS.h */,
 				1DC8CE33207BA197001A53A0 /* MockupRounding_macOS.swift */,
 				1DC8CE35207BA197001A53A0 /* Info.plist */,
 				931AD04D8A0852E31F652A0E /* NSScreen+ScreenInfoProvider.swift */,
 				931ADEF8A447E39902FF4BE4 /* ScreenInfoSource.swift */,
-			);
-			path = MockupRounding_macOS;
-			sourceTree = "<group>";
-		};
-		1DC8CE3F207BA1DA001A53A0 /* MockupRounding_macOS */ = {
-			isa = PBXGroup;
-			children = (
-				1DC8CE40207BA1DA001A53A0 /* MockupRounding_macOS.h */,
-				1DC8CE41207BA1DA001A53A0 /* Info.plist */,
 			);
 			path = MockupRounding_macOS;
 			sourceTree = "<group>";
@@ -298,7 +289,6 @@
 			children = (
 				1DC8CE84207BA4AD001A53A0 /* Common */,
 				1DC8CE32207BA197001A53A0 /* MockupRounding_macOS */,
-				1DC8CE3F207BA1DA001A53A0 /* MockupRounding_macOS */,
 				1DC8CE4A207BA1DA001A53A0 /* MockupRounding_macOSTests */,
 				1DC8CE5B207BA24B001A53A0 /* MockupRounding_watchOS */,
 				1DC8CE68207BA278001A53A0 /* MockupRounding_tvOS */,
@@ -487,6 +477,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Jan Kaše";
 				TargetAttributes = {
 					1DC8CE3D207BA1D9001A53A0 = {
@@ -753,7 +744,7 @@
 		1DC8CE50207BA1DA001A53A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -781,7 +772,7 @@
 		1DC8CE51207BA1DA001A53A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;

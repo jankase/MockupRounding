@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import MockupRounding_macOS
+@testable import MockupRounding
 
 class MockupRounding_macOSTests: XCTestCase {
     

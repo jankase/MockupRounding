@@ -8,11 +8,11 @@ import UIKit
 extension UIScreen: ScreenInfoProvider {
 
   public var size: CGSize {
-    return applicationFrame.size
+    return bounds.size
   }
 
   public var frame: CGRect {
-    return applicationFrame
+    return bounds
   }
 
 }

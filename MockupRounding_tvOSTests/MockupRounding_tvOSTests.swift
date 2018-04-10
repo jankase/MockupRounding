@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import MockupRounding_tvOS
+@testable import MockupRounding
 
 class MockupRounding_tvOSTests: XCTestCase {
     
