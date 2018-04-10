@@ -1,0 +1,52 @@
+language: swift
+osx_image: xcode9.2
+cache:
+  directories:
+  - Carthage
+before_install:
+- brew outdated carthage || brew upgrade carthage
+- brew outdated swiftlint || brew upgrade swiftlint
+before_script:
+- rm -rf ~/Library/Developer/Xcode/DerivedData
+- carthage bootstrap --no-use-binaries --cache-builds --platform $CARTHAGE_PLATFORM
+- if [ $COVERAGE == "YES" ]; then
+    gem install slather;
+    curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-darwin-amd64 > ./cc-test-reporter;
+    chmod +x ./cc-test-reporter;
+    ./cc-test-reporter before-build;
+  fi
+script:
+  - set -o pipefail
+  - xcodebuild clean
+  - xcodebuild build -project $PROJECT_NAME -scheme $SCHEME_NAME -destination "$DESTINATION" ENABLE_TESTABILITY=YES CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=YES | xcpretty
+  - if [ $TESTING == "YES" ]; then
+      xcodebuild test -project $PROJECT_NAME -scheme $SCHEME_NAME -destination "$DESTINATION" ENABLE_TESTABILITY=YES CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=YES | xcpretty;
+    fi
+  - if [ $COVERAGE == "YES" ]; then
+      slather coverage -x -t --scheme $SCHEME_NAME $PROJECT_NAME;
+    fi
+after_script:
+  - if [ $COVERAGE == "YES" ]; then
+      ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT -t cobertura;
+    fi
+env:
+  global:
+  - PROJECT_NAME: MockupRounding.xcodeproj
+  - CC_TEST_REPORTER_ID: 92520f575b7f0b466d04691dea25ee9b02b413e15c84da3c8e1667128a0f750f
+  - secure: "xISvpRqq97Tns7WdtLDHE6vx9L18zU+GV6g6GFXfck+Fu3Kll9dPPS9zhzWHD/Jcom34qwCNXOTJdTzQDmzKU9Wczfr+zzpiF8d7KxUK/HxrqLS777ah9PT8pnrCbT9XQal7oM5Bp6W5w6LkBosgKhf7DtuVq3jCYNDJPJLc5SbSZSq2PQK41l7EeQcIRLxOlptMD4vwSO1lc2+4gutGJ/6cEsw4OOrz9nXzm9qrguwY66kNqDv+i6KFTfpyP21nHbQtKP+1D9jQNkgqVXdLrfq2zrARMqp8JvXMRB7p1l9FnuRwIGymhMivPGISy4RJejGd+vyWqRwiOqP325hc996cxX6dOzVjRCvv07/shLK7dp6hxJqKmOD++TJMdkXPbJEnR0jOla18ZKRGoP1dOi320F63oxqf6K8ICwQX0E1NKL4uSd7mQ5knzBSWPhHBg1wZs10rKXT6uk4QM17HUbI3jT089TmVcXnVxlvNOKLEgjtoQvJRqLa03bQ/4dw11FqvI3YtI7urvwB63qR3Wl5/nR+86KEI2RbvrFtsklzTf7k0S6b/Uu5s3VI5e/fPJ295F3OrLyAxXdt2DVDTVuyp5Dejv7ElhMEr/u3wy0sOLMMsem9xEznvM8SQmBxP6c3VGB0GOiJctXwH1OxrYmHbYq8nWSMltzJVk5kfdKw="
+  matrix:
+  - SCHEME_NAME="MockupRounding_iOS" DESTINATION="name=iPhone X,OS=11.2" CARTHAGE_PLATFORM="ios" TESTING="YES" COVERAGE="YES"
+  - SCHEME_NAME="MockupRounding_iOS" DESTINATION="name=iPhone 7 Plus,OS=11.2" CARTHAGE_PLATFORM="ios" TESTING="YES" COVERAGE="NO"
+  - SCHEME_NAME="MockupRounding_iOS" DESTINATION="name=iPhone 6,OS=10.3.1" CARTHAGE_PLATFORM="ios" TESTING="YES" COVERAGE="NO"
+  - SCHEME_NAME="MockupRounding_iOS" DESTINATION="name=iPhone 5s,OS=9.3" CARTHAGE_PLATFORM="ios" TESTING="YES" COVERAGE="NO"
+  - SCHEME_NAME="MockupRounding_iOS" DESTINATION="name=iPhone 4s,OS=8.3" CARTHAGE_PLATFORM="ios" TESTING="YES" COVERAGE="NO"
+
+  - SCHEME_NAME="MockupRounding_macOS" DESTINATION="arch=x86_64" CARTHAGE_PLATFORM="macos" TESTING="YES" COVERAGE="NO"
+
+  - SCHEME_NAME="MockupRounding_tvOS" DESTINATION="name=Apple TV 4K,OS=11.2" CARTHAGE_PLATFORM="tvos" TESTING="YES" COVERAGE="NO"
+  - SCHEME_NAME="MockupRounding_tvOS" DESTINATION="name=Apple TV 1080p,OS=10.2" CARTHAGE_PLATFORM="tvos" TESTING="YES" COVERAGE="NO"
+  - SCHEME_NAME="MockupRounding_tvOS" DESTINATION="name=Apple TV 1080p,OS=9.2" CARTHAGE_PLATFORM="tvos" TESTING="YES" COVERAGE="NO"
+
+  - SCHEME_NAME="MockupRounding_watchOS" DESTINATION="name=Apple Watch - 42mm,OS=4.2" CARTHAGE_PLATFORM="watchos" TESTING="NO" COVERAGE="NO"
+  - SCHEME_NAME="MockupRounding_watchOS" DESTINATION="name=Apple Watch - 42mm,OS=3.2" CARTHAGE_PLATFORM="watchos" TESTING="NO" COVERAGE="NO"
+  - SCHEME_NAME="MockupRounding_watchOS" DESTINATION="name=Apple Watch - 38mm,OS=2.2" CARTHAGE_PLATFORM="watchos" TESTING="NO" COVERAGE="NO"

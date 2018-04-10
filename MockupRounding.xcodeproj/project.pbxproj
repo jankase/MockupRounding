@@ -7,12 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		931AD99AAE1E25E90CEFD746 /* MockupRounding.h in Resources */ = {isa = PBXBuildFile; fileRef = 931AD59BDEE350E39FC56D56 /* MockupRounding.h */; };
+		1DC8CE2C207B9FB5001A53A0 /* UIRounding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC8CE2B207B9FB5001A53A0 /* UIRounding.framework */; };
+		1DC8CE47207BA1DA001A53A0 /* MockupRounding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC8CE3E207BA1D9001A53A0 /* MockupRounding.framework */; };
+		1DC8CE4E207BA1DA001A53A0 /* MockupRounding_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC8CE40207BA1DA001A53A0 /* MockupRounding_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DC8CE5E207BA24C001A53A0 /* MockupRounding_watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC8CE5C207BA24C001A53A0 /* MockupRounding_watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DC8CE70207BA278001A53A0 /* MockupRounding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC8CE67207BA278001A53A0 /* MockupRounding.framework */; };
+		1DC8CE77207BA278001A53A0 /* MockupRounding_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC8CE69207BA278001A53A0 /* MockupRounding_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DC8CE7F207BA325001A53A0 /* UIRounding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC8CE7E207BA325001A53A0 /* UIRounding.framework */; };
+		1DC8CE81207BA33C001A53A0 /* UIRounding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC8CE80207BA33C001A53A0 /* UIRounding.framework */; };
+		1DC8CE83207BA354001A53A0 /* UIRounding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC8CE82207BA354001A53A0 /* UIRounding.framework */; };
+		1DE64CD1207CA5B600C66E8F /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE64CCF207CA5B600C66E8F /* Nimble.framework */; };
+		1DE64CD2207CA5B600C66E8F /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE64CD0207CA5B600C66E8F /* Quick.framework */; };
+		1DE64CD5207CA75000C66E8F /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE64CD3207CA75000C66E8F /* Quick.framework */; };
+		1DE64CD6207CA75000C66E8F /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE64CD4207CA75000C66E8F /* Nimble.framework */; };
+		1DE64CD9207CA77000C66E8F /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE64CD7207CA77000C66E8F /* Nimble.framework */; };
+		1DE64CDA207CA77000C66E8F /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE64CD8207CA77000C66E8F /* Quick.framework */; };
+		931AD0796732FFEE078A57C3 /* NSScreen+ScreenInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD04D8A0852E31F652A0E /* NSScreen+ScreenInfoProvider.swift */; };
+		931AD0D84FF11BFB25A73079 /* MockupRoundingSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD999D957C529706FA435 /* MockupRoundingSpec.swift */; };
+		931AD151BD2232AACD4A4DD1 /* ScreenInfoSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD8CE51472A9E2FC5CCDE /* ScreenInfoSource.swift */; };
+		931AD1573A3800DAAAD7CDD4 /* FixScreenInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADDF617C8BB3BD7E5B47A /* FixScreenInfoProvider.swift */; };
+		931AD3133C2ED0B65E4FE44D /* ScreenInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADB6BA5107DFFF84FAFF1 /* ScreenInfoProvider.swift */; };
+		931AD3374A93C7E97F0C80F3 /* MockUpRoundingDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD2C9307E5EDA12AC8D27 /* MockUpRoundingDirection.swift */; };
+		931AD3E38791B5152EFB1073 /* MockupRoundingSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD999D957C529706FA435 /* MockupRoundingSpec.swift */; };
+		931AD4C8743C7CC36E2B184C /* ScreenInfoSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD3AC44E722EA053A74BC /* ScreenInfoSource.swift */; };
+		931AD57FEC623BF43ECC9FA3 /* WKDevice+ScreenInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD51F239C455B6D8E34BE /* WKDevice+ScreenInfoProvider.swift */; };
+		931AD5A783E175A9B27F7BB2 /* ScreenInfoSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD3AC44E722EA053A74BC /* ScreenInfoSource.swift */; };
+		931AD6E5AD373584CF41C00D /* MockupRounding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADECAA238CCB53B65BFA4 /* MockupRounding.swift */; };
+		931AD72D085921931E4D6CB1 /* FixScreenInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADDF617C8BB3BD7E5B47A /* FixScreenInfoProvider.swift */; };
+		931AD7374F88E6452AC59C52 /* ScreenInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADB6BA5107DFFF84FAFF1 /* ScreenInfoProvider.swift */; };
+		931AD92293EC89E4E7E0D88F /* RoundingSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD6A9FD152306295F2CD8 /* RoundingSpec.swift */; };
+		931AD99AAE1E25E90CEFD746 /* MockupRounding_iOS.h in Resources */ = {isa = PBXBuildFile; fileRef = 931AD59BDEE350E39FC56D56 /* MockupRounding_iOS.h */; };
+		931ADA9CC7E3C695DFB5294D /* MockupRounding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADECAA238CCB53B65BFA4 /* MockupRounding.swift */; };
 		931ADAEF557BDE14379F4A3E /* MockupRounding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931ADA81F5F23BD10E0C02BF /* MockupRounding.framework */; };
-		931ADC9D25EEB6B6D5E16F72 /* MockupRoundingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD2D6866CF1F782C28BA0 /* MockupRoundingTests.swift */; };
+		931ADB8403D427137281E291 /* MockupRounding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADECAA238CCB53B65BFA4 /* MockupRounding.swift */; };
+		931ADBD6C60E351DCEFE5658 /* MockUpRoundingDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD2C9307E5EDA12AC8D27 /* MockUpRoundingDirection.swift */; };
+		931ADBDCA38869C930B6A463 /* UIScreen+ScreenInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD7966B7DC7FBA801FCDC /* UIScreen+ScreenInfoProvider.swift */; };
+		931ADC5210E8C72921FDF3B6 /* MockUpRoundingDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD2C9307E5EDA12AC8D27 /* MockUpRoundingDirection.swift */; };
+		931ADC6B3BF30838D5C9C054 /* FixScreenInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADDF617C8BB3BD7E5B47A /* FixScreenInfoProvider.swift */; };
+		931ADD982D0CD2360DD7BBCE /* MockupRounding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADECAA238CCB53B65BFA4 /* MockupRounding.swift */; };
+		931ADD9F981FE86D9BF7A80D /* ScreenInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADB6BA5107DFFF84FAFF1 /* ScreenInfoProvider.swift */; };
+		931ADDC971415A2CC3F0298C /* ScreenInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADB6BA5107DFFF84FAFF1 /* ScreenInfoProvider.swift */; };
+		931ADDD253BC8CD120EB15F0 /* UIScreen+ScreenInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD7966B7DC7FBA801FCDC /* UIScreen+ScreenInfoProvider.swift */; };
+		931ADE07B21586B914C58F5D /* RoundingSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD6A9FD152306295F2CD8 /* RoundingSpec.swift */; };
+		931ADF041D03C4C16695D358 /* ScreenInfoSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADEF8A447E39902FF4BE4 /* ScreenInfoSource.swift */; };
+		931ADF4A9BBB65F4289125D5 /* MockupRoundingSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD999D957C529706FA435 /* MockupRoundingSpec.swift */; };
+		931ADF53139119C064723A0F /* FixScreenInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADDF617C8BB3BD7E5B47A /* FixScreenInfoProvider.swift */; };
+		931ADF5AFB6FC79E53B1D448 /* RoundingSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD6A9FD152306295F2CD8 /* RoundingSpec.swift */; };
+		931ADFDCE1CDFC5C172CB3F1 /* MockUpRoundingDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD2C9307E5EDA12AC8D27 /* MockUpRoundingDirection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1DC8CE48207BA1DA001A53A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 931AD2DBBE325C37BBAEB449 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DC8CE3D207BA1D9001A53A0;
+			remoteInfo = MockupRounding_macOS;
+		};
+		1DC8CE71207BA278001A53A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 931AD2DBBE325C37BBAEB449 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DC8CE66207BA278001A53A0;
+			remoteInfo = MockupRounding_tvOS;
+		};
 		931AD65C8206B12377B997DE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 931AD2DBBE325C37BBAEB449 /* Project object */;
@@ -23,19 +81,103 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1DC8CE2B207B9FB5001A53A0 /* UIRounding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIRounding.framework; path = Carthage/Build/iOS/UIRounding.framework; sourceTree = "<group>"; };
+		1DC8CE33207BA197001A53A0 /* MockupRounding_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockupRounding_macOS.swift; sourceTree = "<group>"; };
+		1DC8CE35207BA197001A53A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DC8CE3E207BA1D9001A53A0 /* MockupRounding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MockupRounding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC8CE40207BA1DA001A53A0 /* MockupRounding_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockupRounding_macOS.h; sourceTree = "<group>"; };
+		1DC8CE46207BA1DA001A53A0 /* MockupRounding_macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockupRounding_macOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC8CE4D207BA1DA001A53A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DC8CE5A207BA24B001A53A0 /* MockupRounding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MockupRounding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC8CE5C207BA24C001A53A0 /* MockupRounding_watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockupRounding_watchOS.h; sourceTree = "<group>"; };
+		1DC8CE5D207BA24C001A53A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DC8CE67207BA278001A53A0 /* MockupRounding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MockupRounding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC8CE69207BA278001A53A0 /* MockupRounding_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockupRounding_tvOS.h; sourceTree = "<group>"; };
+		1DC8CE6A207BA278001A53A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DC8CE6F207BA278001A53A0 /* MockupRounding_tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockupRounding_tvOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC8CE76207BA278001A53A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DC8CE7E207BA325001A53A0 /* UIRounding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIRounding.framework; path = Carthage/Build/Mac/UIRounding.framework; sourceTree = "<group>"; };
+		1DC8CE80207BA33C001A53A0 /* UIRounding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIRounding.framework; path = Carthage/Build/watchOS/UIRounding.framework; sourceTree = "<group>"; };
+		1DC8CE82207BA354001A53A0 /* UIRounding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIRounding.framework; path = Carthage/Build/tvOS/UIRounding.framework; sourceTree = "<group>"; };
+		1DE64CCF207CA5B600C66E8F /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		1DE64CD0207CA5B600C66E8F /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		1DE64CD3207CA75000C66E8F /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
+		1DE64CD4207CA75000C66E8F /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
+		1DE64CD7207CA77000C66E8F /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/tvOS/Nimble.framework; sourceTree = "<group>"; };
+		1DE64CD8207CA77000C66E8F /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/tvOS/Quick.framework; sourceTree = "<group>"; };
+		931AD04D8A0852E31F652A0E /* NSScreen+ScreenInfoProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSScreen+ScreenInfoProvider.swift"; sourceTree = "<group>"; };
+		931AD13D3C5C0361FD815038 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = file.yml; path = .travis.yml; sourceTree = "<group>"; };
 		931AD1B7158870E88BDE6638 /* MockupRoundingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockupRoundingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		931AD2D6866CF1F782C28BA0 /* MockupRoundingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockupRoundingTests.swift; sourceTree = "<group>"; };
-		931AD59BDEE350E39FC56D56 /* MockupRounding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockupRounding.h; sourceTree = "<group>"; };
+		931AD2C9307E5EDA12AC8D27 /* MockUpRoundingDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockUpRoundingDirection.swift; sourceTree = "<group>"; };
+		931AD3AC44E722EA053A74BC /* ScreenInfoSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenInfoSource.swift; sourceTree = "<group>"; };
+		931AD51F239C455B6D8E34BE /* WKDevice+ScreenInfoProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WKDevice+ScreenInfoProvider.swift"; sourceTree = "<group>"; };
+		931AD59BDEE350E39FC56D56 /* MockupRounding_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockupRounding_iOS.h; sourceTree = "<group>"; };
+		931AD6A4D75410E40B9378D3 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		931AD6A9FD152306295F2CD8 /* RoundingSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundingSpec.swift; sourceTree = "<group>"; };
 		931AD6FF0B0A49402BFBA5A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		931AD7166C311CD5ACC84107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		931AD7966B7DC7FBA801FCDC /* UIScreen+ScreenInfoProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScreen+ScreenInfoProvider.swift"; sourceTree = "<group>"; };
+		931AD8C3D1A9FEC7AE6CDB01 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		931AD8CE51472A9E2FC5CCDE /* ScreenInfoSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenInfoSource.swift; sourceTree = "<group>"; };
+		931AD999D957C529706FA435 /* MockupRoundingSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockupRoundingSpec.swift; sourceTree = "<group>"; };
 		931ADA81F5F23BD10E0C02BF /* MockupRounding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MockupRounding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		931ADB6BA5107DFFF84FAFF1 /* ScreenInfoProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenInfoProvider.swift; sourceTree = "<group>"; };
+		931ADDF617C8BB3BD7E5B47A /* FixScreenInfoProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FixScreenInfoProvider.swift; sourceTree = "<group>"; };
+		931ADE608A1AC3A2F0B6FF3D /* Cartfile.private */ = {isa = PBXFileReference; lastKnownFileType = file.private; path = Cartfile.private; sourceTree = "<group>"; };
+		931ADECAA238CCB53B65BFA4 /* MockupRounding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockupRounding.swift; sourceTree = "<group>"; };
+		931ADEF8A447E39902FF4BE4 /* ScreenInfoSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenInfoSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1DC8CE3A207BA1D9001A53A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC8CE7F207BA325001A53A0 /* UIRounding.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC8CE43207BA1DA001A53A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DE64CD5207CA75000C66E8F /* Quick.framework in Frameworks */,
+				1DE64CD6207CA75000C66E8F /* Nimble.framework in Frameworks */,
+				1DC8CE47207BA1DA001A53A0 /* MockupRounding.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC8CE56207BA24B001A53A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC8CE81207BA33C001A53A0 /* UIRounding.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC8CE63207BA278001A53A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC8CE83207BA354001A53A0 /* UIRounding.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC8CE6C207BA278001A53A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DE64CD9207CA77000C66E8F /* Nimble.framework in Frameworks */,
+				1DE64CDA207CA77000C66E8F /* Quick.framework in Frameworks */,
+				1DC8CE70207BA278001A53A0 /* MockupRounding.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		931AD4A678A4C99F9F4283E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DC8CE2C207B9FB5001A53A0 /* UIRounding.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +185,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DE64CD1207CA5B600C66E8F /* Nimble.framework in Frameworks */,
+				1DE64CD2207CA5B600C66E8F /* Quick.framework in Frameworks */,
 				931ADAEF557BDE14379F4A3E /* MockupRounding.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,20 +194,105 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		931AD275E6C30F8169F40219 /* MockupRounding */ = {
+		1DC8CE2A207B9FB4001A53A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DE64CCF207CA5B600C66E8F /* Nimble.framework */,
+				1DE64CD4207CA75000C66E8F /* Nimble.framework */,
+				1DE64CD0207CA5B600C66E8F /* Quick.framework */,
+				1DE64CD3207CA75000C66E8F /* Quick.framework */,
+				1DE64CD7207CA77000C66E8F /* Nimble.framework */,
+				1DE64CD8207CA77000C66E8F /* Quick.framework */,
+				1DC8CE82207BA354001A53A0 /* UIRounding.framework */,
+				1DC8CE80207BA33C001A53A0 /* UIRounding.framework */,
+				1DC8CE7E207BA325001A53A0 /* UIRounding.framework */,
+				1DC8CE2B207B9FB5001A53A0 /* UIRounding.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1DC8CE32207BA197001A53A0 /* MockupRounding_macOS */ = {
+			isa = PBXGroup;
+			children = (
+				1DC8CE40207BA1DA001A53A0 /* MockupRounding_macOS.h */,
+				1DC8CE33207BA197001A53A0 /* MockupRounding_macOS.swift */,
+				1DC8CE35207BA197001A53A0 /* Info.plist */,
+				931AD04D8A0852E31F652A0E /* NSScreen+ScreenInfoProvider.swift */,
+				931ADEF8A447E39902FF4BE4 /* ScreenInfoSource.swift */,
+			);
+			path = MockupRounding_macOS;
+			sourceTree = "<group>";
+		};
+		1DC8CE4A207BA1DA001A53A0 /* MockupRounding_macOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DC8CE4D207BA1DA001A53A0 /* Info.plist */,
+			);
+			path = MockupRounding_macOSTests;
+			sourceTree = "<group>";
+		};
+		1DC8CE5B207BA24B001A53A0 /* MockupRounding_watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				1DC8CE5C207BA24C001A53A0 /* MockupRounding_watchOS.h */,
+				1DC8CE5D207BA24C001A53A0 /* Info.plist */,
+				931AD51F239C455B6D8E34BE /* WKDevice+ScreenInfoProvider.swift */,
+				931AD8CE51472A9E2FC5CCDE /* ScreenInfoSource.swift */,
+			);
+			path = MockupRounding_watchOS;
+			sourceTree = "<group>";
+		};
+		1DC8CE68207BA278001A53A0 /* MockupRounding_tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				1DC8CE69207BA278001A53A0 /* MockupRounding_tvOS.h */,
+				1DC8CE6A207BA278001A53A0 /* Info.plist */,
+			);
+			path = MockupRounding_tvOS;
+			sourceTree = "<group>";
+		};
+		1DC8CE73207BA278001A53A0 /* MockupRounding_tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DC8CE76207BA278001A53A0 /* Info.plist */,
+			);
+			path = MockupRounding_tvOSTests;
+			sourceTree = "<group>";
+		};
+		1DC8CE84207BA4AD001A53A0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				931ADECAA238CCB53B65BFA4 /* MockupRounding.swift */,
+				931ADB6BA5107DFFF84FAFF1 /* ScreenInfoProvider.swift */,
+				931AD47E9F2F0613509DA46F /* iOS_tvOS */,
+				931AD2C9307E5EDA12AC8D27 /* MockUpRoundingDirection.swift */,
+				931ADDF617C8BB3BD7E5B47A /* FixScreenInfoProvider.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		931AD275E6C30F8169F40219 /* MockupRounding_iOS */ = {
 			isa = PBXGroup;
 			children = (
 				931AD7166C311CD5ACC84107 /* Info.plist */,
-				931AD59BDEE350E39FC56D56 /* MockupRounding.h */,
+				931AD59BDEE350E39FC56D56 /* MockupRounding_iOS.h */,
 			);
-			path = MockupRounding;
+			path = MockupRounding_iOS;
+			sourceTree = "<group>";
+		};
+		931AD47E9F2F0613509DA46F /* iOS_tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				931AD7966B7DC7FBA801FCDC /* UIScreen+ScreenInfoProvider.swift */,
+				931AD3AC44E722EA053A74BC /* ScreenInfoSource.swift */,
+			);
+			path = iOS_tvOS;
 			sourceTree = "<group>";
 		};
 		931AD615B7B9871DE43C71E6 /* MockupRoundingTests */ = {
 			isa = PBXGroup;
 			children = (
 				931AD6FF0B0A49402BFBA5A3 /* Info.plist */,
-				931AD2D6866CF1F782C28BA0 /* MockupRoundingTests.swift */,
 			);
 			path = MockupRoundingTests;
 			sourceTree = "<group>";
@@ -73,6 +302,11 @@
 			children = (
 				931ADA81F5F23BD10E0C02BF /* MockupRounding.framework */,
 				931AD1B7158870E88BDE6638 /* MockupRoundingTests.xctest */,
+				1DC8CE3E207BA1D9001A53A0 /* MockupRounding.framework */,
+				1DC8CE46207BA1DA001A53A0 /* MockupRounding_macOSTests.xctest */,
+				1DC8CE5A207BA24B001A53A0 /* MockupRounding.framework */,
+				1DC8CE67207BA278001A53A0 /* MockupRounding.framework */,
+				1DC8CE6F207BA278001A53A0 /* MockupRounding_tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,15 +314,60 @@
 		931ADE1E343146DBFC55B993 = {
 			isa = PBXGroup;
 			children = (
+				1DC8CE84207BA4AD001A53A0 /* Common */,
+				931ADEDFA9F340829D4B4073 /* CommonTests */,
+				1DC8CE32207BA197001A53A0 /* MockupRounding_macOS */,
+				1DC8CE4A207BA1DA001A53A0 /* MockupRounding_macOSTests */,
+				1DC8CE5B207BA24B001A53A0 /* MockupRounding_watchOS */,
+				1DC8CE68207BA278001A53A0 /* MockupRounding_tvOS */,
+				1DC8CE73207BA278001A53A0 /* MockupRounding_tvOSTests */,
 				931AD684A40D9C652AEAC750 /* Products */,
-				931AD275E6C30F8169F40219 /* MockupRounding */,
+				931AD275E6C30F8169F40219 /* MockupRounding_iOS */,
 				931AD615B7B9871DE43C71E6 /* MockupRoundingTests */,
+				931AD8C3D1A9FEC7AE6CDB01 /* README.md */,
+				931AD6A4D75410E40B9378D3 /* Cartfile */,
+				1DC8CE2A207B9FB4001A53A0 /* Frameworks */,
+				931AD13D3C5C0361FD815038 /* .travis.yml */,
+				931ADE608A1AC3A2F0B6FF3D /* Cartfile.private */,
 			);
+			sourceTree = "<group>";
+		};
+		931ADEDFA9F340829D4B4073 /* CommonTests */ = {
+			isa = PBXGroup;
+			children = (
+				931AD999D957C529706FA435 /* MockupRoundingSpec.swift */,
+				931AD6A9FD152306295F2CD8 /* RoundingSpec.swift */,
+			);
+			path = CommonTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		1DC8CE3B207BA1D9001A53A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC8CE4E207BA1DA001A53A0 /* MockupRounding_macOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC8CE57207BA24B001A53A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC8CE5E207BA24C001A53A0 /* MockupRounding_watchOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC8CE64207BA278001A53A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC8CE77207BA278001A53A0 /* MockupRounding_tvOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		931ADD56F12B7366D9E879DB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -99,10 +378,106 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		931ADA673C00FA9ACD831DD9 /* MockupRounding */ = {
+		1DC8CE3D207BA1D9001A53A0 /* MockupRounding_macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 931AD3C715F048AC896DFC2E /* Build configuration list for PBXNativeTarget "MockupRounding" */;
+			buildConfigurationList = 1DC8CE4F207BA1DA001A53A0 /* Build configuration list for PBXNativeTarget "MockupRounding_macOS" */;
 			buildPhases = (
+				1DE64CC9207C069700C66E8F /* ShellScript */,
+				1DC8CE39207BA1D9001A53A0 /* Sources */,
+				1DC8CE3A207BA1D9001A53A0 /* Frameworks */,
+				1DC8CE3B207BA1D9001A53A0 /* Headers */,
+				1DC8CE3C207BA1D9001A53A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MockupRounding_macOS;
+			productName = MockupRounding_macOS;
+			productReference = 1DC8CE3E207BA1D9001A53A0 /* MockupRounding.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1DC8CE45207BA1DA001A53A0 /* MockupRounding_macOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DC8CE52207BA1DA001A53A0 /* Build configuration list for PBXNativeTarget "MockupRounding_macOSTests" */;
+			buildPhases = (
+				1DE64CCD207CA43600C66E8F /* ShellScript */,
+				1DC8CE42207BA1DA001A53A0 /* Sources */,
+				1DC8CE43207BA1DA001A53A0 /* Frameworks */,
+				1DC8CE44207BA1DA001A53A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DC8CE49207BA1DA001A53A0 /* PBXTargetDependency */,
+			);
+			name = MockupRounding_macOSTests;
+			productName = MockupRounding_macOSTests;
+			productReference = 1DC8CE46207BA1DA001A53A0 /* MockupRounding_macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1DC8CE59207BA24B001A53A0 /* MockupRounding_watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DC8CE5F207BA24C001A53A0 /* Build configuration list for PBXNativeTarget "MockupRounding_watchOS" */;
+			buildPhases = (
+				1DE64CCA207C06AA00C66E8F /* ShellScript */,
+				1DC8CE55207BA24B001A53A0 /* Sources */,
+				1DC8CE56207BA24B001A53A0 /* Frameworks */,
+				1DC8CE57207BA24B001A53A0 /* Headers */,
+				1DC8CE58207BA24B001A53A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MockupRounding_watchOS;
+			productName = MockupRounding_watchOS;
+			productReference = 1DC8CE5A207BA24B001A53A0 /* MockupRounding.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1DC8CE66207BA278001A53A0 /* MockupRounding_tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DC8CE78207BA278001A53A0 /* Build configuration list for PBXNativeTarget "MockupRounding_tvOS" */;
+			buildPhases = (
+				1DE64CCB207C06BC00C66E8F /* ShellScript */,
+				1DC8CE62207BA278001A53A0 /* Sources */,
+				1DC8CE63207BA278001A53A0 /* Frameworks */,
+				1DC8CE64207BA278001A53A0 /* Headers */,
+				1DC8CE65207BA278001A53A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MockupRounding_tvOS;
+			productName = MockupRounding_tvOS;
+			productReference = 1DC8CE67207BA278001A53A0 /* MockupRounding.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1DC8CE6E207BA278001A53A0 /* MockupRounding_tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DC8CE7B207BA278001A53A0 /* Build configuration list for PBXNativeTarget "MockupRounding_tvOSTests" */;
+			buildPhases = (
+				1DE64CCE207CA4E900C66E8F /* ShellScript */,
+				1DC8CE6B207BA278001A53A0 /* Sources */,
+				1DC8CE6C207BA278001A53A0 /* Frameworks */,
+				1DC8CE6D207BA278001A53A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DC8CE72207BA278001A53A0 /* PBXTargetDependency */,
+			);
+			name = MockupRounding_tvOSTests;
+			productName = MockupRounding_tvOSTests;
+			productReference = 1DC8CE6F207BA278001A53A0 /* MockupRounding_tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		931ADA673C00FA9ACD831DD9 /* MockupRounding_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 931AD3C715F048AC896DFC2E /* Build configuration list for PBXNativeTarget "MockupRounding_iOS" */;
+			buildPhases = (
+				1DE64CC8207C067600C66E8F /* ShellScript */,
 				931AD85811664BDDB7C23BB5 /* Sources */,
 				931AD4A678A4C99F9F4283E6 /* Frameworks */,
 				931ADD56F12B7366D9E879DB /* Headers */,
@@ -112,7 +487,7 @@
 			);
 			dependencies = (
 			);
-			name = MockupRounding;
+			name = MockupRounding_iOS;
 			productName = MockupRounding;
 			productReference = 931ADA81F5F23BD10E0C02BF /* MockupRounding.framework */;
 			productType = "com.apple.product-type.framework";
@@ -121,6 +496,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 931AD9F6F395FC528F9BAD47 /* Build configuration list for PBXNativeTarget "MockupRoundingTests" */;
 			buildPhases = (
+				1DE64CCC207CA35700C66E8F /* ShellScript */,
 				931AD5F462CACC914BA176E1 /* Sources */,
 				931AD6725BD640966CCE784E /* Frameworks */,
 				931AD165DC2147F131693466 /* Resources */,
@@ -141,7 +517,39 @@
 		931AD2DBBE325C37BBAEB449 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Jan Kaše";
+				TargetAttributes = {
+					1DC8CE3D207BA1D9001A53A0 = {
+						CreatedOnToolsVersion = 9.3;
+						DevelopmentTeam = 8WS8N285FL;
+						ProvisioningStyle = Automatic;
+					};
+					1DC8CE45207BA1DA001A53A0 = {
+						CreatedOnToolsVersion = 9.3;
+						DevelopmentTeam = 8WS8N285FL;
+						ProvisioningStyle = Automatic;
+					};
+					1DC8CE59207BA24B001A53A0 = {
+						CreatedOnToolsVersion = 9.3;
+						DevelopmentTeam = 8WS8N285FL;
+						ProvisioningStyle = Automatic;
+					};
+					1DC8CE66207BA278001A53A0 = {
+						CreatedOnToolsVersion = 9.3;
+						DevelopmentTeam = 8WS8N285FL;
+						ProvisioningStyle = Automatic;
+					};
+					1DC8CE6E207BA278001A53A0 = {
+						CreatedOnToolsVersion = 9.3;
+						DevelopmentTeam = 8WS8N285FL;
+						ProvisioningStyle = Automatic;
+					};
+					931ADA6D3843D5B41DE2B09A = {
+						DevelopmentTeam = 8WS8N285FL;
+					};
+				};
 			};
 			buildConfigurationList = 931ADC252E45246944A6D323 /* Build configuration list for PBXProject "MockupRounding" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -155,18 +563,58 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				931ADA673C00FA9ACD831DD9 /* MockupRounding */,
+				931ADA673C00FA9ACD831DD9 /* MockupRounding_iOS */,
+				1DC8CE3D207BA1D9001A53A0 /* MockupRounding_macOS */,
+				1DC8CE59207BA24B001A53A0 /* MockupRounding_watchOS */,
+				1DC8CE66207BA278001A53A0 /* MockupRounding_tvOS */,
 				931ADA6D3843D5B41DE2B09A /* MockupRoundingTests */,
+				1DC8CE45207BA1DA001A53A0 /* MockupRounding_macOSTests */,
+				1DC8CE6E207BA278001A53A0 /* MockupRounding_tvOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1DC8CE3C207BA1D9001A53A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC8CE44207BA1DA001A53A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC8CE58207BA24B001A53A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC8CE65207BA278001A53A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC8CE6D207BA278001A53A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		931AD07AAEE1BCC8E6FDE227 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				931AD99AAE1E25E90CEFD746 /* MockupRounding.h in Resources */,
+				931AD99AAE1E25E90CEFD746 /* MockupRounding_iOS.h in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,12 +627,190 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DE64CC8207C067600C66E8F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/UIRounding.framework",
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/UIRounding.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		1DE64CC9207C069700C66E8F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/Mac/UIRounding.framework",
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/UIRounding.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		1DE64CCA207C06AA00C66E8F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/watchOS/UIRounding.framework",
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/UIRounding.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		1DE64CCB207C06BC00C66E8F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/tvOS/UIRounding.framework",
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/UIRounding.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		1DE64CCC207CA35700C66E8F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/UIRounding.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/UIRounding.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Quick.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Nimble.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		1DE64CCD207CA43600C66E8F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/Mac/UIRounding.framework",
+				"$(SRCROOT)/Carthage/Build/Mac/Quick.framework",
+				"$(SRCROOT)/Carthage/Build/Mac/Nimble.framework",
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/UIRounding.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Quick.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Nimble.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		1DE64CCE207CA4E900C66E8F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/tvOS/UIRounding.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/Quick.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/Nimble.framework",
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/UIRounding.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Quick.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Nimble.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		1DC8CE39207BA1D9001A53A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931ADB8403D427137281E291 /* MockupRounding.swift in Sources */,
+				931ADD9F981FE86D9BF7A80D /* ScreenInfoProvider.swift in Sources */,
+				931AD3374A93C7E97F0C80F3 /* MockUpRoundingDirection.swift in Sources */,
+				931AD0796732FFEE078A57C3 /* NSScreen+ScreenInfoProvider.swift in Sources */,
+				931ADF041D03C4C16695D358 /* ScreenInfoSource.swift in Sources */,
+				931ADC6B3BF30838D5C9C054 /* FixScreenInfoProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC8CE42207BA1DA001A53A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931AD0D84FF11BFB25A73079 /* MockupRoundingSpec.swift in Sources */,
+				931AD92293EC89E4E7E0D88F /* RoundingSpec.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC8CE55207BA24B001A53A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931ADA9CC7E3C695DFB5294D /* MockupRounding.swift in Sources */,
+				931AD3133C2ED0B65E4FE44D /* ScreenInfoProvider.swift in Sources */,
+				931ADFDCE1CDFC5C172CB3F1 /* MockUpRoundingDirection.swift in Sources */,
+				931AD57FEC623BF43ECC9FA3 /* WKDevice+ScreenInfoProvider.swift in Sources */,
+				931AD151BD2232AACD4A4DD1 /* ScreenInfoSource.swift in Sources */,
+				931AD1573A3800DAAAD7CDD4 /* FixScreenInfoProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC8CE62207BA278001A53A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931AD6E5AD373584CF41C00D /* MockupRounding.swift in Sources */,
+				931ADDC971415A2CC3F0298C /* ScreenInfoProvider.swift in Sources */,
+				931ADDD253BC8CD120EB15F0 /* UIScreen+ScreenInfoProvider.swift in Sources */,
+				931AD5A783E175A9B27F7BB2 /* ScreenInfoSource.swift in Sources */,
+				931ADBD6C60E351DCEFE5658 /* MockUpRoundingDirection.swift in Sources */,
+				931ADF53139119C064723A0F /* FixScreenInfoProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC8CE6B207BA278001A53A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931ADF4A9BBB65F4289125D5 /* MockupRoundingSpec.swift in Sources */,
+				931ADE07B21586B914C58F5D /* RoundingSpec.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		931AD5F462CACC914BA176E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				931ADC9D25EEB6B6D5E16F72 /* MockupRoundingTests.swift in Sources */,
+				931AD3E38791B5152EFB1073 /* MockupRoundingSpec.swift in Sources */,
+				931ADF5AFB6FC79E53B1D448 /* RoundingSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,20 +818,286 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				931ADD982D0CD2360DD7BBCE /* MockupRounding.swift in Sources */,
+				931AD7374F88E6452AC59C52 /* ScreenInfoProvider.swift in Sources */,
+				931ADBDCA38869C930B6A463 /* UIScreen+ScreenInfoProvider.swift in Sources */,
+				931AD4C8743C7CC36E2B184C /* ScreenInfoSource.swift in Sources */,
+				931ADC5210E8C72921FDF3B6 /* MockUpRoundingDirection.swift in Sources */,
+				931AD72D085921931E4D6CB1 /* FixScreenInfoProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1DC8CE49207BA1DA001A53A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DC8CE3D207BA1D9001A53A0 /* MockupRounding_macOS */;
+			targetProxy = 1DC8CE48207BA1DA001A53A0 /* PBXContainerItemProxy */;
+		};
+		1DC8CE72207BA278001A53A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DC8CE66207BA278001A53A0 /* MockupRounding_tvOS */;
+			targetProxy = 1DC8CE71207BA278001A53A0 /* PBXContainerItemProxy */;
+		};
 		931AD39436B0AC72FFAF4207 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 931ADA673C00FA9ACD831DD9 /* MockupRounding */;
+			target = 931ADA673C00FA9ACD831DD9 /* MockupRounding_iOS */;
 			targetProxy = 931AD65C8206B12377B997DE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1DC8CE50207BA1DA001A53A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8WS8N285FL;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = MockupRounding_macOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.MockupRounding-macOS";
+				PRODUCT_NAME = MockupRounding;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		1DC8CE51207BA1DA001A53A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8WS8N285FL;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = MockupRounding_macOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.MockupRounding-macOS";
+				PRODUCT_NAME = MockupRounding;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		1DC8CE53207BA1DA001A53A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8WS8N285FL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = MockupRounding_macOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.MockupRounding-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		1DC8CE54207BA1DA001A53A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8WS8N285FL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = MockupRounding_macOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.MockupRounding-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		1DC8CE60207BA24C001A53A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8WS8N285FL;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				INFOPLIST_FILE = MockupRounding_watchOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.MockupRounding-watchOS";
+				PRODUCT_NAME = MockupRounding;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		1DC8CE61207BA24C001A53A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8WS8N285FL;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				INFOPLIST_FILE = MockupRounding_watchOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.MockupRounding-watchOS";
+				PRODUCT_NAME = MockupRounding;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		1DC8CE79207BA278001A53A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8WS8N285FL;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = MockupRounding_tvOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.MockupRounding-tvOS";
+				PRODUCT_NAME = MockupRounding;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		1DC8CE7A207BA278001A53A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8WS8N285FL;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = MockupRounding_tvOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.MockupRounding-tvOS";
+				PRODUCT_NAME = MockupRounding;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		1DC8CE7C207BA278001A53A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8WS8N285FL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = MockupRounding_tvOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.MockupRounding-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.3;
+			};
+			name = Debug;
+		};
+		1DC8CE7D207BA278001A53A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8WS8N285FL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = MockupRounding_tvOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.jkdev.MockupRounding-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.3;
+			};
+			name = Release;
+		};
 		931AD42FE513B1A9EC3C4159 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -252,11 +1144,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -266,6 +1158,12 @@
 		931AD64286BB47FCD2C36AE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEVELOPMENT_TEAM = 8WS8N285FL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MockupRoundingTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eu.jkdev.MockupRoundingTests;
@@ -283,11 +1181,15 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MockupRounding/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/MockupRounding_iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eu.jkdev.MockupRounding;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = MockupRounding;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,11 +1204,15 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MockupRounding/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/MockupRounding_iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eu.jkdev.MockupRounding;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = MockupRounding;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -316,6 +1222,12 @@
 		931ADA42C797B78A9AEA2739 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEVELOPMENT_TEAM = 8WS8N285FL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MockupRoundingTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eu.jkdev.MockupRoundingTests;
@@ -377,7 +1289,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -391,13 +1304,59 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		931AD3C715F048AC896DFC2E /* Build configuration list for PBXNativeTarget "MockupRounding" */ = {
+		1DC8CE4F207BA1DA001A53A0 /* Build configuration list for PBXNativeTarget "MockupRounding_macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DC8CE50207BA1DA001A53A0 /* Debug */,
+				1DC8CE51207BA1DA001A53A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DC8CE52207BA1DA001A53A0 /* Build configuration list for PBXNativeTarget "MockupRounding_macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DC8CE53207BA1DA001A53A0 /* Debug */,
+				1DC8CE54207BA1DA001A53A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DC8CE5F207BA24C001A53A0 /* Build configuration list for PBXNativeTarget "MockupRounding_watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DC8CE60207BA24C001A53A0 /* Debug */,
+				1DC8CE61207BA24C001A53A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DC8CE78207BA278001A53A0 /* Build configuration list for PBXNativeTarget "MockupRounding_tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DC8CE79207BA278001A53A0 /* Debug */,
+				1DC8CE7A207BA278001A53A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DC8CE7B207BA278001A53A0 /* Build configuration list for PBXNativeTarget "MockupRounding_tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DC8CE7C207BA278001A53A0 /* Debug */,
+				1DC8CE7D207BA278001A53A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		931AD3C715F048AC896DFC2E /* Build configuration list for PBXNativeTarget "MockupRounding_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				931AD694E87AA27A77AAEF67 /* Debug */,
 				931AD86A733BB21F7948B381 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		931AD9F6F395FC528F9BAD47 /* Build configuration list for PBXNativeTarget "MockupRoundingTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +1365,7 @@
 				931ADA42C797B78A9AEA2739 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		931ADC252E45246944A6D323 /* Build configuration list for PBXProject "MockupRounding" */ = {
 			isa = XCConfigurationList;

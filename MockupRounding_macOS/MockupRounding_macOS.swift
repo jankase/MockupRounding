@@ -1,15 +1,14 @@
 //
-//  MockupRoundingTests.swift
-//  MockupRoundingTests
+//  MockupRounding_macOS.swift
+//  MockupRounding_macOS
 //
 //  Created by Jan Kase on 09/04/2018.
 //  Copyright © 2018 Jan Kaše. All rights reserved.
 //
 
 import XCTest
-@testable import MockupRounding
 
-class MockupRoundingTests: XCTestCase {
+class MockupRounding_macOS: XCTestCase {
     
     override func setUp() {
         super.setUp()
