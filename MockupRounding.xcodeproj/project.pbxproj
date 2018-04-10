@@ -9,11 +9,9 @@
 /* Begin PBXBuildFile section */
 		1DC8CE2C207B9FB5001A53A0 /* UIRounding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC8CE2B207B9FB5001A53A0 /* UIRounding.framework */; };
 		1DC8CE47207BA1DA001A53A0 /* MockupRounding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC8CE3E207BA1D9001A53A0 /* MockupRounding.framework */; };
-		1DC8CE4C207BA1DA001A53A0 /* MockupRounding_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC8CE4B207BA1DA001A53A0 /* MockupRounding_macOSTests.swift */; };
 		1DC8CE4E207BA1DA001A53A0 /* MockupRounding_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC8CE40207BA1DA001A53A0 /* MockupRounding_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1DC8CE5E207BA24C001A53A0 /* MockupRounding_watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC8CE5C207BA24C001A53A0 /* MockupRounding_watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1DC8CE70207BA278001A53A0 /* MockupRounding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC8CE67207BA278001A53A0 /* MockupRounding.framework */; };
-		1DC8CE75207BA278001A53A0 /* MockupRounding_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC8CE74207BA278001A53A0 /* MockupRounding_tvOSTests.swift */; };
 		1DC8CE77207BA278001A53A0 /* MockupRounding_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC8CE69207BA278001A53A0 /* MockupRounding_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1DC8CE7F207BA325001A53A0 /* UIRounding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC8CE7E207BA325001A53A0 /* UIRounding.framework */; };
 		1DC8CE81207BA33C001A53A0 /* UIRounding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC8CE80207BA33C001A53A0 /* UIRounding.framework */; };
@@ -46,7 +44,6 @@
 		931ADBDCA38869C930B6A463 /* UIScreen+ScreenInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD7966B7DC7FBA801FCDC /* UIScreen+ScreenInfoProvider.swift */; };
 		931ADC5210E8C72921FDF3B6 /* MockUpRoundingDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD2C9307E5EDA12AC8D27 /* MockUpRoundingDirection.swift */; };
 		931ADC6B3BF30838D5C9C054 /* FixScreenInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADDF617C8BB3BD7E5B47A /* FixScreenInfoProvider.swift */; };
-		931ADC9D25EEB6B6D5E16F72 /* MockupRoundingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AD2D6866CF1F782C28BA0 /* MockupRoundingTests.swift */; };
 		931ADD982D0CD2360DD7BBCE /* MockupRounding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADECAA238CCB53B65BFA4 /* MockupRounding.swift */; };
 		931ADD9F981FE86D9BF7A80D /* ScreenInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADB6BA5107DFFF84FAFF1 /* ScreenInfoProvider.swift */; };
 		931ADDC971415A2CC3F0298C /* ScreenInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ADB6BA5107DFFF84FAFF1 /* ScreenInfoProvider.swift */; };
@@ -90,7 +87,6 @@
 		1DC8CE3E207BA1D9001A53A0 /* MockupRounding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MockupRounding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DC8CE40207BA1DA001A53A0 /* MockupRounding_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockupRounding_macOS.h; sourceTree = "<group>"; };
 		1DC8CE46207BA1DA001A53A0 /* MockupRounding_macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockupRounding_macOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DC8CE4B207BA1DA001A53A0 /* MockupRounding_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockupRounding_macOSTests.swift; sourceTree = "<group>"; };
 		1DC8CE4D207BA1DA001A53A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DC8CE5A207BA24B001A53A0 /* MockupRounding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MockupRounding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DC8CE5C207BA24C001A53A0 /* MockupRounding_watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockupRounding_watchOS.h; sourceTree = "<group>"; };
@@ -99,7 +95,6 @@
 		1DC8CE69207BA278001A53A0 /* MockupRounding_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockupRounding_tvOS.h; sourceTree = "<group>"; };
 		1DC8CE6A207BA278001A53A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DC8CE6F207BA278001A53A0 /* MockupRounding_tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockupRounding_tvOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DC8CE74207BA278001A53A0 /* MockupRounding_tvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockupRounding_tvOSTests.swift; sourceTree = "<group>"; };
 		1DC8CE76207BA278001A53A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DC8CE7E207BA325001A53A0 /* UIRounding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIRounding.framework; path = Carthage/Build/Mac/UIRounding.framework; sourceTree = "<group>"; };
 		1DC8CE80207BA33C001A53A0 /* UIRounding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIRounding.framework; path = Carthage/Build/watchOS/UIRounding.framework; sourceTree = "<group>"; };
@@ -114,7 +109,6 @@
 		931AD13D3C5C0361FD815038 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = file.yml; path = .travis.yml; sourceTree = "<group>"; };
 		931AD1B7158870E88BDE6638 /* MockupRoundingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockupRoundingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		931AD2C9307E5EDA12AC8D27 /* MockUpRoundingDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockUpRoundingDirection.swift; sourceTree = "<group>"; };
-		931AD2D6866CF1F782C28BA0 /* MockupRoundingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockupRoundingTests.swift; sourceTree = "<group>"; };
 		931AD3AC44E722EA053A74BC /* ScreenInfoSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenInfoSource.swift; sourceTree = "<group>"; };
 		931AD51F239C455B6D8E34BE /* WKDevice+ScreenInfoProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WKDevice+ScreenInfoProvider.swift"; sourceTree = "<group>"; };
 		931AD59BDEE350E39FC56D56 /* MockupRounding_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockupRounding_iOS.h; sourceTree = "<group>"; };
@@ -232,7 +226,6 @@
 		1DC8CE4A207BA1DA001A53A0 /* MockupRounding_macOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				1DC8CE4B207BA1DA001A53A0 /* MockupRounding_macOSTests.swift */,
 				1DC8CE4D207BA1DA001A53A0 /* Info.plist */,
 			);
 			path = MockupRounding_macOSTests;
@@ -261,7 +254,6 @@
 		1DC8CE73207BA278001A53A0 /* MockupRounding_tvOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				1DC8CE74207BA278001A53A0 /* MockupRounding_tvOSTests.swift */,
 				1DC8CE76207BA278001A53A0 /* Info.plist */,
 			);
 			path = MockupRounding_tvOSTests;
@@ -301,7 +293,6 @@
 			isa = PBXGroup;
 			children = (
 				931AD6FF0B0A49402BFBA5A3 /* Info.plist */,
-				931AD2D6866CF1F782C28BA0 /* MockupRoundingTests.swift */,
 			);
 			path = MockupRoundingTests;
 			sourceTree = "<group>";
@@ -774,7 +765,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DC8CE4C207BA1DA001A53A0 /* MockupRounding_macOSTests.swift in Sources */,
 				931AD0D84FF11BFB25A73079 /* MockupRoundingSpec.swift in Sources */,
 				931AD92293EC89E4E7E0D88F /* RoundingSpec.swift in Sources */,
 			);
@@ -810,7 +800,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DC8CE75207BA278001A53A0 /* MockupRounding_tvOSTests.swift in Sources */,
 				931ADF4A9BBB65F4289125D5 /* MockupRoundingSpec.swift in Sources */,
 				931ADE07B21586B914C58F5D /* RoundingSpec.swift in Sources */,
 			);
@@ -820,7 +809,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				931ADC9D25EEB6B6D5E16F72 /* MockupRoundingTests.swift in Sources */,
 				931AD3E38791B5152EFB1073 /* MockupRoundingSpec.swift in Sources */,
 				931ADF5AFB6FC79E53B1D448 /* RoundingSpec.swift in Sources */,
 			);
